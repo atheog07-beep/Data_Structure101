@@ -14,7 +14,7 @@ public class MyData {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[] Jokuwi = {10, 20,30,40,50,60,70,80,90,100};  
+        int[] Yokuwi = {10, 20,30,40,50,60,70,80,90,100};  
         
     }
     
