@@ -1,28 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package mydata;
-
-/**
- *
- * @author Ath07
- */
+import java.util.Arrays;
 public class MyData {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        int[] Yokuwi = {10, 20,30,40,50,60,70,80,90,100};  
+        int[] Yokuwi = {10, 20,30,40,50,60,70,80,90,100};
         int jumlah = 0;
         for (int i = 0; i < Yokuwi.length; i++) {
             jumlah += Yokuwi[i];
-            
         }
-        System.out.println("Hasil : " + jumlah);
-        
+        double rerata = (double) jumlah / Yokuwi.length;
+        System.out.println("Yokuwi = " + Arrays.toString(Yokuwi));
+        System.out.println("Jumlah = " + jumlah);
+        System.out.println("Rata-rata = " + rerata);
     }
- 
-    
 }
